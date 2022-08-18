@@ -6,6 +6,6 @@ gem "jekyll-gist"
 gem 'jekyll-mentions'
 gem 'jekyll-feed'
 
+gem 'wdm', '>= 0.1.0'
 gem "webrick", "~> 1.7"
-
-gem "rexml", "~> 3.2"
+gem 'faraday-retry'
