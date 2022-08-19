@@ -1,7 +1,7 @@
 # Site
 title:              '성장자국의 TIL blog'
-bio:                '성장을 위해, TIL 자국을 남겨놓는 블로그'
-description:        "성장을 위해, TIL 자국을 남겨놓는 블로그"
+bio:                '성장을 위해, TIL을 남겨놓는 블로그'
+description:        "성장을 위해, TIL을 남겨놓는 블로그"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo_option2.png'
