@@ -4,7 +4,7 @@ bio: "어제보다 더 나은 나를 위해,<br><br>공부한 기록을 남기�
 description:        "어제보다 더 나은 나를 위해, 공부한 기록을 남기는 블로그"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo_option2.png'
+logo:               'favicon.png'
 background:         'assets/img/bg_option1.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             ko_KR
