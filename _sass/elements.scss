@@ -115,19 +115,13 @@ img {
     margin-right: auto;
     border: 0;
     -ms-interpolation-mode: bicubic;
-    image-rendering: optimizeQuality;
-}
-.img-circle {
-	border-radius: 50%;
-	border: 3px solid $white;
-	height: 150px;
-	width: 150px;
+    image-rendering: auto;
 }
 .img-sqaure {
-              border-radius: 90%;
-	border: 3px solid $white;
-	height: 150px;
-	width: 150px;
+    border-radius: 90%;
+    border: 3px solid $white;
+    height: 150px;
+    width: 150px;
 }
 .author-photo {
     background-color: $white;
@@ -137,6 +131,7 @@ img {
     margin-left: 1em;
     margin-top: 0;
 }
+
 figure {
   margin: 0;
   padding-top: 10px;
