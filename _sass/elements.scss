@@ -117,14 +117,23 @@ img {
     -ms-interpolation-mode: bicubic;
     image-rendering: auto;
 }
-.img-sqaure {
-    border-radius: 90%;
+.img-circle {
+    border-radius: 50%;
     border: 3px solid $white;
     height: 150px;
     width: 150px;
 }
+.img-square {
+    border-radius: 10%;
+    border-left: 10px solid $color_apricot;
+    border-right: 10px solid $color_apricot;
+    background-color: $color_apricot;
+    height: 200px;
+    width: 200px;
+}
 .author-photo {
-    background-color: $white;
+    
+    background-color: $color_yellow;
 }
 .image-right {
     float: right;
