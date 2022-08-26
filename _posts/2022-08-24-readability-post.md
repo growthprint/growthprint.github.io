@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing
-date: 2022-08-24T00:00:00.000Z
+date: 2022-08-24
 excerpt: post Testing
 tags:
   - sample post
