@@ -3,8 +3,7 @@ layout: post
 title: Testing
 date: 2022-08-29T00:00:00.000Z
 excerpt: post Testing
-tags:
-  - sample post
+tags: [TIL, Day 1]
 comments: false
 published: true
 ---
