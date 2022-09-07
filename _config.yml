@@ -46,13 +46,6 @@ github-url:         growthprint
 #youtube-channel:   channel
 
 
-#algolia
-algolia:
-  application_id: HECMUS35HL
-  index_name: growthprint_blog
-  fliles_to_exclude: []
-
-
 
 
 
