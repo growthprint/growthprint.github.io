@@ -1,9 +1,61 @@
+.wrapper {
+  padding-left: 4em;
+  padding-top: 3em;
+}
+
+
+
+
 .common-header.search {
-  #search-input {
-    font-size: 1.3rem;
+  display: table;
+  border: 3.5px solid;
+  border-radius: 6px;
+  width: 50%;
+  height: 3rem;
+  padding: 0.8rem;
+  .search {
+    display: table-cell;
+    vertical-align: middle;
+
+    i {
+      font-size: 1.5rem;
+    }
+
+    #search-input {
+      border: none;
+      text-overflow: ellipsis;
+      font-weight: bold;
+      font-size: 1.5rem;
+      line-height: 4rem;
+      width: calc(100% - 2.2rem);
+      height: 3rem;
+      padding-left: 0.3rem;
+
+      -webkit-appearance: none;
+
+      &:focus {
+        outline: none;
+      }
+
+      &::-ms-clear {
+        display: none;
+      }
+
+      &::-webkit-search-decoration,
+      &::-webkit-search-cancel-button,
+      &::-webkit-search-results-button,
+      &::-webkit-search-results-decoration {
+        display: none;
+        -webkit-appearance: none;
+      }
+    }
   }
 }
 #search-results{
+  padding: 1.8rem 1.3rem;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6rem;
   li {
     font-size:1.35rem;
   }
